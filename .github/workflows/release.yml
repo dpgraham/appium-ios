@@ -21,4 +21,4 @@ jobs:
     - run: npx lerna bootstrap
     - run: npx lerna exec npm shrinkwrap
     - run: npx lerna run test
-    - run: npx lerna publish
+    - run: npx lerna publish --no-ci
