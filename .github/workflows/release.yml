@@ -17,11 +17,11 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 14.x
-    - name: Authenticate with Registry
-      run: echo "registry=https://registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
-      env:
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-    - run: npm whoami
+    #- name: Authenticate with Registry
+      #run: echo "registry=https://registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+      #env:
+        #NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+    #- run: npm whoami
     - run: npm install
     - run: npx lerna bootstrap --no-ci
     - run: npx lerna exec "npm prune --production"
@@ -32,3 +32,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
