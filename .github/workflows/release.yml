@@ -20,7 +20,8 @@ jobs:
     - run: npm install
     - run: npx lerna bootstrap --no-ci
     - run: npx lerna exec "npm prune --production"
-    - run: npx lerna exec npm shrinkwrap
+    - run: npx lerna exec "npm shrinkwrap"
+    - run: npx lerna exec "npm install"
     - run: npx lerna run test
     - run: npx lerna publish -y
       env:
