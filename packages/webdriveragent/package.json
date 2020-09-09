@@ -1,6 +1,6 @@
 {
   "name": "@dpgraham/webdriveragent",
-  "version": "2.20.4",
+  "version": "1.0.0",
   "description": "Package bundling WebDriverAgent",
   "main": "build/index.js",
   "scripts": {
