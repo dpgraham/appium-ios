@@ -98,5 +98,8 @@
 		"sinon": "^9.0.0",
 		"wd": "^1.5.0"
 	},
+	"scripts": {
+		"test": "gulp once"
+	},
 	"gitHead": "957b7ae7901d2864c8d45dc68bc9d078bb97b481"
 }

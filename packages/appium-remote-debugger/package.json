@@ -40,6 +40,9 @@
 		"lodash": "^4.17.11",
 		"source-map-support": "^0.5.5"
 	},
+	"scripts": {
+		"test": "gulp once"
+	},
 	"pre-commit": [
 		"precommit-msg",
 		"precommit-test"
