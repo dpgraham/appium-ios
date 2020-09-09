@@ -1,5 +1,5 @@
 {
-  "name": "@dpgraham/xcuitest-driver",
+  "name": "dpgraham-xcuitest-driver",
   "description": "Appium driver for iOS using XCUITest for backend",
   "keywords": [
     "appium",
@@ -118,5 +118,6 @@
     "semantic-release": "^17.1.1",
     "sinon": "^9.0.0",
     "wd": "^1.5.0"
-  }
+  },
+  "gitHead": "957b7ae7901d2864c8d45dc68bc9d078bb97b481"
 }

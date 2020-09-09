@@ -1,5 +1,5 @@
 {
-  "name": "@dpgraham/webdriveragent",
+  "name": "dpgraham-webdriveragent",
   "version": "0.1.0",
   "description": "Package bundling WebDriverAgent",
   "main": "build/index.js",
@@ -90,5 +90,6 @@
     "WebDriverAgentTests",
     "XCTWebDriverAgentLib",
     "WebDriverAgentRunner-Runner.app.zip"
-  ]
+  ],
+  "gitHead": "957b7ae7901d2864c8d45dc68bc9d078bb97b481"
 }
