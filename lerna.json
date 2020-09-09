@@ -7,5 +7,11 @@
     "publish": {
       "conventionalCommits": true
     }
+  },
+  "changelog": {
+    "labels": {
+      "feature": "New Feature",
+      "bug": "Bug Fix"
+    }
   }
 }
